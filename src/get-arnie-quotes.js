@@ -71,7 +71,7 @@ const getArnieQuote = async (url) => {
       [SUCCESS_KEY]: message,
     };
 
-    // store successful results in ache
+    // store successful results in cache
     cache.set(url, results);
 
     return results;
